@@ -19,6 +19,7 @@ body {
 .container {
   width: 317px;
   background: #1a1b21;
+  border-radius: 10px;
 }
 
 /* Info section */
@@ -97,7 +98,7 @@ body {
 }
 
 .interests--section {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .section--title {
@@ -110,4 +111,21 @@ body {
   font-size: 10.24px;
   line-height: 150%;
   color: #dcdcdc;
+}
+
+/* Footer section */
+
+.footer--section {
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: center;
+  padding: 19px 0;
+}
+
+.footer--section__list {
+  margin-bottom: -5px;
+  list-style: none;
+  display: flex;
+  gap: 24px;
 }
