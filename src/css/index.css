@@ -73,6 +73,12 @@ body {
   border: none;
   font-family: inherit;
   font-weight: 500;
+  cursor: pointer;
+  transition: transform 200ms;
+}
+
+.info--section button:hover {
+  transform: scale(1.03);
 }
 
 .info--button__email {
@@ -128,4 +134,12 @@ body {
   list-style: none;
   display: flex;
   gap: 24px;
+}
+
+.footer--list__item {
+  transition: opacity 200ms;
+}
+
+.footer--list__item:hover {
+  opacity: 0.7;
 }

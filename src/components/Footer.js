@@ -8,16 +8,24 @@ export default function Footer() {
     <div class="footer--section">
       <ul class="footer--section__list">
         <li class="footer--list__item">
-          <img src={twitterLogo} />
+          <a href="twitter.com" target="_blank">
+            <img src={twitterLogo} />
+          </a>
         </li>
         <li class="footer--list__item">
-          <img src={facebookLogo} />
+          <a href="facebook.com" target="_blank">
+            <img src={facebookLogo} />
+          </a>
         </li>
         <li class="footer--list__item">
-          <img src={instagramLogo} />
+          <a href="instagram.com" target="_blank">
+            <img src={instagramLogo} />
+          </a>
         </li>
         <li class="footer--list__item">
-          <img src={githubLogo} />
+          <a href="github.com" target="_blank">
+            <img src={githubLogo} />
+          </a>
         </li>
       </ul>
     </div>
