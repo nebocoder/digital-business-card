@@ -83,3 +83,31 @@ body {
   background: #5093e2;
   color: #fff;
 }
+
+/* About and Interests sections */
+
+.about--section,
+.interests--section {
+  width: 247px;
+  margin: 0 auto;
+}
+
+.about--section {
+  margin-bottom: 12px;
+}
+
+.interests--section {
+  margin-bottom: 30px;
+}
+
+.section--title {
+  font-size: 16px;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+
+.section--text {
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #dcdcdc;
+}
