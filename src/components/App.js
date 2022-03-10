@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 export default function App() {
   return (
-    <div class="container">
+    <div className="container">
       <Info />
       <About />
       <Interests />
